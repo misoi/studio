@@ -4,6 +4,7 @@
 .background{
     background-image:url(../img/microphone-1920x1080.jpg);
     max-width: 1920px;
+    background-repeat: no-repeat;
 }
 
 /*navigation*/
@@ -356,4 +357,13 @@ Vertical navigation
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+.home{
+    text-align:center;
+    color: gold;
+
+
+}
+.rowone{
+    height: 60px;
 }
