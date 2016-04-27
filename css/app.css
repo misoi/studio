@@ -450,3 +450,11 @@ Vertical navigation
 .height{
     height: 250px;
 }
+
+/*service style*/
+.img{
+ border-radius: 2em;
+}
+.service{
+    background-color: aliceblue;
+}
