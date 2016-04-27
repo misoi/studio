@@ -1,6 +1,11 @@
 .container{
     width: 100%;
 }
+.background{
+    background-image:url(../img/microphone-1920x1080.jpg);
+    max-width: 1920px;
+}
+
 /*navigation*/
 .cd-nav-trigger {
   display: block;
