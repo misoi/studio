@@ -13,6 +13,9 @@
 .slantfont{
     font-family: 'Italianno', cursive;
 }
+.se{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 /*navigation*/
 .cd-nav-trigger {
   display: block;
