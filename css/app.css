@@ -456,5 +456,8 @@ Vertical navigation
  border-radius: 2em;
 }
 .service{
-    background-color: aliceblue;
+    background-color:gold;
+}
+.width{
+    max-width: 1920px;
 }
