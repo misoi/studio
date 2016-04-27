@@ -1,3 +1,6 @@
+.container{
+    width: 100%;
+}
 /*navigation*/
 .cd-nav-trigger {
   display: block;
@@ -7,7 +10,7 @@
   right: 4%;
   height: 44px;
   width: 24px;
-  border-radius: 0.25em;
+  border-radius: 0.2em;
   background: rgba(234, 242, 227, 0.9);
   /* reset button style */
   cursor: pointer;
@@ -22,8 +25,8 @@
 .cd-nav-trigger span {
   /* central dot */
   position: absolute;
-  height: 4px;
-  width: 4px;
+  height: 2px;
+  width: 2px;
   background-color: #3a2c41;
   border-radius: 50%;
   left: 50%;
@@ -69,8 +72,8 @@ Vertical navigation
   right: 4%;
   bottom: 30px;
   width: 60%;
-  max-width: 400px;
-  max-height: 50%;
+  max-width: 200px;
+  max-height: 20%;
   overflow-y: auto;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
@@ -93,7 +96,7 @@ Vertical navigation
   padding: 1em;
   color: #3a2c41;
   font-weight: bold;
-  border-bottom: 1px solid rgba(58, 44, 65, 0.1);
+  border-bottom:1px solid rgba(58, 44, 65, 0.1);
 }
 .cd-vertical-nav a.active {
   color: #c0a672;
@@ -187,10 +190,10 @@ Vertical navigation
   }
   .cd-vertical-nav a {
     position: relative;
-    padding: 3em 0 0;
+    padding: 0.5em 0 0;
     margin: 1.4em auto;
     border-bottom: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #eaf2e3;
   }
   .cd-vertical-nav a.active {
@@ -200,7 +203,7 @@ Vertical navigation
     /* used to create the filled circle and the background icon */
     content: '';
     position: absolute;
-    left: 50%;
+    left: 70%;
     /* Force Hardware Acceleration */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -213,8 +216,8 @@ Vertical navigation
   .cd-vertical-nav a::before {
     /* filled circle */
     top: 0;
-    height: 32px;
-    width: 32px;
+    height: 12px;
+    width: 12px;
     border-radius: 50%;
     background: #eaf2e3;
     -webkit-transform: translateX(-50%) scale(0.25);
@@ -230,8 +233,8 @@ Vertical navigation
     /* icon */
     opacity: 0;
     top: 8px;
-    height: 16px;
-    width: 16px;
+    height: 6px;
+    width: 9px;
     background: url(../img/cd-nav-icons.svg) no-repeat;
     -webkit-transform: translateX(-50%) scale(0);
     -moz-transform: translateX(-50%) scale(0);
@@ -327,11 +330,11 @@ Vertical navigation
     transition: transform 0.4s;
   }
   .no-touch .cd-vertical-nav:hover a::before, .no-touch .cd-vertical-nav:hover a::after, .touch .cd-vertical-nav li:nth-of-type(n) a::before, .touch .cd-vertical-nav li:nth-of-type(n) a::after {
-    -webkit-transform: translateX(-50%) scale(1);
-    -moz-transform: translateX(-50%) scale(1);
-    -ms-transform: translateX(-50%) scale(1);
-    -o-transform: translateX(-50%) scale(1);
-    transform: translateX(-50%) scale(1);
+    -webkit-transform: translateX(-40%) scale(1);
+    -moz-transform: translateX(-40%) scale(1);
+    -ms-transform: translateX(-40%) scale(1);
+    -o-transform: translateX(-40%) scale(1);
+    transform: translateX(-40%) scale(1);
     /* set a rotation to fix bug on Firefox - http://gielberkers.com/how-to-fix-shaking-css-transitions-in-firefox/ */
     -moz-transform: translateX(-50%) scale(1) rotate(0.02deg);
   }
