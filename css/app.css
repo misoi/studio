@@ -6,7 +6,13 @@
     max-width: 1920px;
     background-repeat: no-repeat;
 }
-
+.moris{
+    font-family: 'Erica One', cursive;
+    font-size: 60px;
+}
+.slantfont{
+    font-family: 'Italianno', cursive;
+}
 /*navigation*/
 .cd-nav-trigger {
   display: block;
@@ -428,10 +434,10 @@ Vertical navigation
     opacity: 0;
   }
 }
-.height{
-
+.hei{
     height: 150px;
 }
+
 .centre{
     text-align: center;
 }
