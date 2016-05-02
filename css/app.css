@@ -1,5 +1,6 @@
 .container{
     width: 100%;
+    max-width: 1920px;
 }
 .background{
     background-image:url(../img/microphone-1920x1080.jpg);
@@ -471,7 +472,8 @@ Vertical navigation
     background-color:gold;
 }
 .width{
-    width: 1300px;
+    padding: 0px;
+    width: 1243px;
 }
 /*footer details style*/
 
