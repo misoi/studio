@@ -371,6 +371,9 @@ Vertical navigation
 .header{
     text-align: center;
 }
+.white{
+    background-color: aliceblue;
+}
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
@@ -484,11 +487,11 @@ Vertical navigation
     padding: 1rem 0 0 1rem;
     margin: 0; }
 
-.row {
-  max-width: 1200px; }
-
 .footer {
-  background-color: #292c2f;
+    max-width: 1300px;
+    height: auto;
+    background-color:#33383b;
+  background-color:#33383b;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem; }
@@ -499,7 +502,7 @@ Vertical navigation
     background-color: #33383b;
     border-radius: 2px;
     font-size: 1.5rem;
-    color: #fff;
+    color:white;
     text-align: center;
     line-height: 35px;
     margin: 0 3px 0 0; }
@@ -507,7 +510,8 @@ Vertical navigation
     list-style-type: none;
     margin: 0;
     text-align: left;
-    color: #fff; }
+    color:white;
+}
     .footer .contact li {
       margin-bottom: 2rem; }
       .footer .contact li p {
@@ -515,7 +519,7 @@ Vertical navigation
     .footer .contact i {
       position: absolute;
       background-color: #33383b;
-      color: #fff;
+      color:white;
       font-size: 2rem;
       border-radius: 50%;
       line-height: 1;
@@ -533,7 +537,7 @@ Vertical navigation
   .footer .footer-links a {
     list-style: none;
     font-weight: normal;
-    color: #fff;
+    color:whitesmoke;
     padding: 3rem 0 2rem;
     margin: 0;
     font-size: 0.875rem; }
@@ -555,7 +559,9 @@ Vertical navigation
         margin-right: 1rem; } }
 
 .logo {
-  color: #fff;
+  color:white;
   font-size: 1.5rem; }
   .logo i {
-    margin-right: 0.5rem; }
+    margin-right: 0.5rem;
+}
+
