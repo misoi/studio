@@ -469,7 +469,7 @@ Vertical navigation
  border-radius: 2em;
 }
 .service{
-    background-color:yellow;
+    background-color:cadetblue;
 }
 .width{
     padding: 0px;
@@ -584,7 +584,7 @@ Vertical navigation
 	padding: 1em 0;
 }
 .button--nanuk:hover {
-	background-color: #3f51b5;
+	background-color:cadetblue;
 }
 .button--nanuk:hover > span:nth-child(odd) {
 	-webkit-animation: anim-nanuk-1 0.5s forwards;
