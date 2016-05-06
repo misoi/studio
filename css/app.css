@@ -755,5 +755,7 @@ Vertical navigation
 	-webkit-animation-delay: 0.5s;
 	animation-delay: 0.5s;
 }
-
+.icon{
+    color:cadetblue;
+}
 
