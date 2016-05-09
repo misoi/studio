@@ -32,13 +32,13 @@
 }
 #menu a {
     text-decoration: none;
-    color:white;
+    color:#333333;
     padding: 8px 8px 8px 8px;
 }
 #menu li {
 display: inline-block;
 padding:5px;
-    color: white;
+    color: blue;
 
 }
 
