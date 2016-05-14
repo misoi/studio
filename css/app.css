@@ -1516,7 +1516,4 @@ no-js
 .no-js .sub-nav {
     display: none;
 }
-.contact {
-    background-image: url(../img/Mojave_Audio_MA300_Multi_Pattern_Vacuum_Tube_Condenser_Microphone.jpg);
-    opacity: 0.8;
-}
+.cont {}

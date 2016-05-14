@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://foundation.zurb.com/sites/docs/forms.html -->
+<html class="" lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="We set out to create an easy, powerful and versatile form layout system. A combination of form styles and the Foundation grid means you can do almost anything.">
+  <link rel="icon" href="http://foundation.zurb.com/sites/docs/assets/img/icons/favicon.ico" type="image/x-icon">
+  <title>Foundation for Sites 6 Docs | Forms</title>
+  <link href="./Foundation for Sites 6 Docs _ Forms_files/docs.css" rel="stylesheet">
+  <link href="./Foundation for Sites 6 Docs _ Forms_files/foundation-icons.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="./node_modules/motion-ui/dist/motion-ui.css" /> -->
+<script type="text/javascript" async="" src="./Foundation for Sites 6 Docs _ Forms_files/d945f04ff5e68057c85f5323b46f185efb3826b3.1.js"></script><script type="text/javascript" async="" src="./Foundation for Sites 6 Docs _ Forms_files/i.js"></script><meta class="foundation-mq"></head>
+<body data-whatinput="mouse">
+
+  <div class="off-canvas-wrapper"><div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+
+    <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas="y4uqtx-off-canvas" data-position="left" aria-hidden="true">
+      <button class="close-button" aria-label="Close menu" type="button" data-close="">
+        <span aria-hidden="true">×</span>
+      </button>
+      <ul class="mobile-ofc vertical menu">
+        
+        <li>
+          <a href="http://foundation.zurb.com/learn/about.html">Learn</a>
+          <ul class="submenu menu vertical" data-submenu="">
+            <li><a href="http://foundation.zurb.com/learn/about.html">About Foundation</a></li> 
+            <li><a href="http://foundation.zurb.com/learn/tutorials.html">Tutorials</a></li>
+            <li><a href="http://foundation.zurb.com/learn/classes.html">Classes</a></li>
+            <li><a href="http://foundation.zurb.com/learn/case-studies.html">Case Studies</a></li>
+            <li><a href="http://foundation.zurb.com/learn/brands.html">Brands</a></li>  
+          </ul>
+        </li>
+        
+        <li>
+          <a href="http://foundation.zurb.com/develop/getting-started.html">Develop</a>
+          <ul class="submenu menu vertical" data-submenu="">
+            <li class="title">Frameworks</li>
+            <li><a href="http://foundation.zurb.com/sites.html">Foundation for Sites</a></li>
+            <li><a href="http://foundation.zurb.com/emails.html">Foundation for Email</a></li>
+            <li><a href="http://foundation.zurb.com/apps.html">Foundation for Apps</a></li>
+            <li class="divider"></li>
+            <li class="title">Develop</li>
+            <li><a href="http://foundation.zurb.com/templates.html">HTML Templates</a></li>
+            <li><a href="http://foundation.zurb.com/sites/resources.html">Resources</a></li>
+            <li><a href="http://foundation.zurb.com/develop/building-blocks.html">Building Blocks</a></li>
+            <li><a href="http://foundation.zurb.com/develop/yeti-launch.html">Yeti Launch</a></li>
+            <li><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
+          </ul>
+        </li>
+    
+        <li><a href="http://foundation.zurb.com/upload.html">Upload</a></li>
+        
+        <li>
+          <a href="http://foundation.zurb.com/support/support.html">Support</a>
+          <ul class="submenu menu vertical" data-submenu="">
+            <li><a href="http://foundation.zurb.com/support/support.html">Support Channels</a></li>
+            <li><a href="http://foundation.zurb.com/support/premium-support.html">Premium Support</a></li>
+            <li><a href="http://foundation.zurb.com/forum/sort/unanswered">Foundation Forum</a></li>
+            <li><a href="http://foundation.zurb.com/support/faq.html">FAQs</a></li>
+          </ul>
+        </li>
+        
+        <li>
+          <a href="http://foundation.zurb.com/frameworks-docs.html">Docs</a>
+          <ul class="submenu menu vertical" data-submenu="">
+            <li><a href="http://foundation.zurb.com/docs/" target="_blank">Sites Docs</a></li>
+            <li><a href="http://foundation.zurb.com/apps/docs/#!/" target="_blank">Apps Docs</a></li>
+            <li><a href="http://zurb.com/ink/docs.php" target="_blank">Email Docs</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="http://foundation.zurb.com/develop/getting-started.html" class="button">Getting Started</a></li>
+    
+      </ul>
+    </div>
+    
+    <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas="yxiwhu-off-canvas" data-position="right" aria-hidden="true">
+      <button class="close-button" aria-label="Close menu" type="button" data-close="">
+        <span aria-hidden="true">×</span>
+      </button>
+      <ul class="vertical menu">
+        <li><a href="http://foundation.zurb.com/sites/docs/forms.html#">Foundation</a></li>
+        <li><a href="http://foundation.zurb.com/sites/docs/forms.html#">Dot</a></li>
+        <li><a href="http://foundation.zurb.com/sites/docs/forms.html#">ZURB</a></li>
+        <li><a href="http://foundation.zurb.com/sites/docs/forms.html#">Com</a></li>
+        <li><a href="http://foundation.zurb.com/sites/docs/forms.html#">Slash</a></li>
+        <li><a href="http://foundation.zurb.com/sites/docs/forms.html#">Sites</a></li>
+      </ul>
+    </div>
+    
+
+    <div class="off-canvas-content" data-off-canvas-content="">
+      <!-- Info Banner For Announcements or Links -->
+      <!-- <a href="http://zurb.com/article/1416/foundation-6-is-here" id="notice">
+        <div class="info">
+          <h5>Foundation 6 is here!</h5>
+        </div>
+      </a> -->
+
+      <nav class="marketing-topbar show-for-medium">
+      
+        <ul class="menu">
+          <li class="topbar-title"><a href="http://foundation.zurb.com/index.html"><img src="./Foundation for Sites 6 Docs _ Forms_files/zurb-logo.svg" alt="ZURB"> Foundation</a></li>
+        </ul>
+      
+        <ul class="dropdown menu" data-dropdown-menu="lb8gk9-dropdown-menu" data-click-open="false" role="menubar">
+      
+          <li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="Learn">
+            <a href="http://foundation.zurb.com/learn/about.html" tabindex="0">Learn</a>
+            <ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" role="menu">
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/learn/about.html">About Foundation</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/learn/tutorials.html">Tutorials</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/learn/classes.html">Classes</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/learn/case-studies.html">Case Studies</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/learn/brands.html">Brands</a></li>
+            </ul>
+          </li>
+      
+          <li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="Develop">
+            <a href="http://foundation.zurb.com/develop/getting-started.html">Develop</a>
+            <ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" role="menu">
+              <li class="title is-submenu-item is-dropdown-submenu-item" role="menuitem">Frameworks</li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/sites.html">Foundation for Sites</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/emails.html">Foundation for Email</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/apps.html">Foundation for Apps</a></li>
+              <li class="divider is-submenu-item is-dropdown-submenu-item" role="menuitem"></li>
+              <li class="title is-submenu-item is-dropdown-submenu-item" role="menuitem">Develop</li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/templates.html">HTML Templates</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/sites/resources.html">Resources</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/develop/building-blocks.html">Building Blocks</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/develop/yeti-launch.html">Yeti Launch</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/develop/contribute.html">Contribute</a></li>
+            </ul>
+          </li>
+      
+          <li role="menuitem"><a href="http://foundation.zurb.com/upload.html">Upload</a></li>
+      
+          <li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="Support">
+            <a href="http://foundation.zurb.com/support/support.html">Support</a>
+            <ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" role="menu">
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/support/support.html">Support Channels</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/support/premium-support.html">Premium Support</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/forum/">Foundation Forum</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/support/faq.html">FAQs</a></li>
+            </ul>
+          </li>
+      
+          <li role="menuitem" class="is-dropdown-submenu-parent opens-right" aria-haspopup="true" aria-expanded="false" aria-label="Docs">
+            <a href="http://foundation.zurb.com/frameworks-docs.html">Docs</a>
+            <ul class="submenu menu vertical is-dropdown-submenu first-sub" data-submenu="" aria-hidden="true" role="menu">
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/docs/" target="_blank">Sites Docs</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/apps/docs/#!/" target="_blank">Apps Docs</a></li>
+              <li role="menuitem" class="is-submenu-item is-dropdown-submenu-item"><a href="http://foundation.zurb.com/emails/docs/" target="_blank">Email Docs</a></li>
+            </ul>
+          </li>
+      
+          <li role="menuitem"><a href="http://foundation.zurb.com/develop/getting-started.html" class="button">Getting Started</a></li>
+      
+        </ul>
+      
+      </nav>
+      
+      <div class="title-bar hide-for-medium">
+        <div class="title-bar-left">
+          <button class="menu-icon" type="button" data-open="offCanvasLeft" aria-expanded="false" aria-controls="offCanvasLeft"></button>
+          <span class="title-bar-title">Foundation</span>
+        </div>
+      </div>
+      
+
+      <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="text" class="docs-search tt-hint" data-docs-search="" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgb(254, 254, 254);"><input type="text" class="docs-search tt-input" data-docs-search="" placeholder="Find a page, component, variable, mixin, function..." autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: &#39;Proxima Nova&#39;, &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 20.8px; font-style: normal; font-variant: normal; font-weight: 300; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><div class="tt-menu" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;"><div class="tt-dataset tt-dataset-0"></div></div></span>
+
+      <div class="expanded row">
+        <div class="medium-9 large-10 medium-push-3 large-push-2 columns">
+
+<article class="docs-component" id="docs-forms">
+
+<a href="http://foundation.zurb.com/sites/docs/forms.html#docs-menu" class="small secondary expanded button hide-for-medium">Jump to Nav</a>
+
+<header>
+  <h1 class="docs-page-title">Forms</h1>
+
+
+  <p class="lead docs-page-lead">We set out to create an easy, powerful and versatile form layout system. A combination of form styles and the Foundation grid means you can do almost anything.</p>
+
+  <ul class="menu simple docs-contribute-menu">
+    <li><a href="https://github.com/zurb/foundation-sites/edit/master/docs/pages/forms.md" target="_blank"><i class="fi-pencil"></i>Edit this Page</a></li>
+    <li><a href="https://github.com/zurb/foundation-sites/issues/new?title=%5BForms%5D%20ISSUE%20NAME%20HERE" target="_blank"><i class="fi-social-github"></i>Report a Bug</a></li>
+    <li><a href="http://foundation.zurb.com/forum" target="_blank"><i class="fi-comment"></i>Get Help</a></li>
+  </ul>
+</header>
+
+<hr>
+
+<div class="row">
+
+<div class="large-9 columns" id="docs">
+
+<h2 id="form-basics" class="docs-heading" data-magellan-target="form-basics">Form Basics<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#form-basics"></a></h2><p>Creating a form in Foundation is designed to be easy but extremely flexible. Forms are built with a combination of standard form elements, as well as grid rows and columns.</p>
+<hr>
+<h4 id="text-inputs" class="docs-heading">Text Inputs<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#text-inputs"></a></h4><p>These input types create a text field: <code>text</code>, <code>date</code>, <code>datetime</code>, <code>datetime-local</code>, <code>email</code>, <code>month</code>, <code>number</code>, <code>password</code>, <code>search</code>, <code>tel</code>, <code>time</code>, <code>url</code>, and <code>week</code>.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-0">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"medium-6 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>Input Label
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">".medium-6.columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"medium-6 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>Input Label
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">".medium-6.columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><form>
+  <div class="row">
+    <div class="medium-6 columns">
+      <label>Input Label
+        <input type="text" placeholder=".medium-6.columns">
+      </label>
+    </div>
+    <div class="medium-6 columns">
+      <label>Input Label
+        <input type="text" placeholder=".medium-6.columns">
+      </label>
+    </div>
+  </div>
+</form></div><hr>
+<h4 id="number-inputs" class="docs-heading">Number Inputs<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#number-inputs"></a></h4><p>In most desktop browsers, <code>&lt;input type="number"&gt;</code> elements will have up/down controls inside them, which increment and decrement the number inside the field. These are called <em>spin buttons</em>. You can disable them by setting the <code>$input-number-spinners</code> Sass variable to <code>false</code>.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-1">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>
+  How many puppies?
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"number"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"100"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><label>
+  How many puppies?
+  <input type="number" value="100">
+</label></div><hr>
+<h4 id="text-areas" class="docs-heading">Text Areas<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#text-areas"></a></h4><p>The <code>&lt;textarea&gt;</code> element creates a multi-line text input.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-2">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>
+  What books did you read over summer break?
+  <span class="hljs-tag">&lt;<span class="hljs-name">textarea</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"None"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">textarea</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><label>
+  What books did you read over summer break?
+  <textarea placeholder="None"></textarea>
+</label></div><hr>
+<h4 id="select-menus" class="docs-heading">Select Menus<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#select-menus"></a></h4><p>Use select menus to combine many choices into one menu.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-3">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>Select Menu
+  <span class="hljs-tag">&lt;<span class="hljs-name">select</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"husker"</span>&gt;</span>Husker<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"starbuck"</span>&gt;</span>Starbuck<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"hotdog"</span>&gt;</span>Hot Dog<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"apollo"</span>&gt;</span>Apollo<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">select</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><label>Select Menu
+  <select>
+    <option value="husker">Husker</option>
+    <option value="starbuck">Starbuck</option>
+    <option value="hotdog">Hot Dog</option>
+    <option value="apollo">Apollo</option>
+  </select>
+</label></div><p>Add the <code>multiple</code> attribute to allow more than one option to be selected. Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-4">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>Multiple Select Menu
+  <span class="hljs-tag">&lt;<span class="hljs-name">select</span> <span class="hljs-attr">multiple</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"showboat"</span>&gt;</span>Showboat<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"redwing"</span>&gt;</span>Redwing<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"narcho"</span>&gt;</span>Narcho<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">option</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"hardball"</span>&gt;</span>Hardball<span class="hljs-tag">&lt;/<span class="hljs-name">option</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">select</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><label>Multiple Select Menu
+  <select multiple="">
+    <option value="showboat">Showboat</option>
+    <option value="redwing">Redwing</option>
+    <option value="narcho">Narcho</option>
+    <option value="hardball">Hardball</option>
+  </select>
+</label></div><hr>
+<h4 id="checkboxes-and-radio-buttons" class="docs-heading">Checkboxes and Radio Buttons<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#checkboxes-and-radio-buttons"></a></h4><p>Use groups of checkboxes when the user may select multiple choices from a list, and use radio buttons when the user must select just one choice.</p>
+<p>Wrap a group of checkboxes or radio buttons in a <code>&lt;fieldset&gt;</code> element, and give them a common label using the <code>&lt;legend&gt;</code> element. Each individual control should also have its own label, created using a typical <code>&lt;label&gt;</code>.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-5">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"large-6 columns"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">legend</span>&gt;</span>Choose Your Favorite<span class="hljs-tag">&lt;/<span class="hljs-name">legend</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"pokemon"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"Red"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"pokemonRed"</span> <span class="hljs-attr">required</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"pokemonRed"</span>&gt;</span>Red<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"pokemon"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"Blue"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"pokemonBlue"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"pokemonBlue"</span>&gt;</span>Blue<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"radio"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"pokemon"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"Yellow"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"pokemonYellow"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"pokemonYellow"</span>&gt;</span>Yellow<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"large-6 columns"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">legend</span>&gt;</span>Check these out<span class="hljs-tag">&lt;/<span class="hljs-name">legend</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"checkbox1"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"checkbox1"</span>&gt;</span>Checkbox 1<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"checkbox2"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"checkbox2"</span>&gt;</span>Checkbox 2<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"checkbox3"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"checkbox3"</span>&gt;</span>Checkbox 3<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><div class="row">
+  <fieldset class="large-6 columns">
+    <legend>Choose Your Favorite</legend>
+    <input type="radio" name="pokemon" value="Red" id="pokemonRed" required=""><label for="pokemonRed">Red</label>
+    <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
+    <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
+  </fieldset>
+  <fieldset class="large-6 columns">
+    <legend>Check these out</legend>
+    <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+    <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+    <input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 3</label>
+  </fieldset>
+</div></div><hr>
+<h4 id="fieldset-styles" class="docs-heading">Fieldset Styles<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#fieldset-styles"></a></h4><p>To encourage their use as an accessibility tool, the <code>&lt;fieldset&gt;</code> element is no longer styled by default. Those styles are now contained in the <code>.fieldset</code> class.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-6">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fieldset"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">legend</span>&gt;</span>Check these out<span class="hljs-tag">&lt;/<span class="hljs-name">legend</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"checkbox12"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"checkbox12"</span>&gt;</span>Checkbox 1<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"checkbox22"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"checkbox22"</span>&gt;</span>Checkbox 2<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"checkbox32"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"checkbox32"</span>&gt;</span>Checkbox 3<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><fieldset class="fieldset">
+  <legend>Check these out</legend>
+  <input id="checkbox12" type="checkbox"><label for="checkbox12">Checkbox 1</label>
+  <input id="checkbox22" type="checkbox"><label for="checkbox22">Checkbox 2</label>
+  <input id="checkbox32" type="checkbox"><label for="checkbox32">Checkbox 3</label>
+</fieldset></div><hr>
+<h2 id="help-text" class="docs-heading" data-magellan-target="help-text">Help Text<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#help-text"></a></h2><p>Place help text below a field to clarify it's purpose. Whenever you use help text, give the text a unique ID, and add the attribute <code>aria-describedby</code> to the input.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-7">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">label</span>&gt;</span>Password
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"password"</span> <span class="hljs-attr">aria-describedby</span>=<span class="hljs-string">"passwordHelpText"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"help-text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"passwordHelpText"</span>&gt;</span>Your password must have at least 10 characters, a number, and an Emoji.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><label>Password
+  <input type="password" aria-describedby="passwordHelpText">
+</label>
+<p class="help-text" id="passwordHelpText">Your password must have at least 10 characters, a number, and an Emoji.</p></div><hr>
+<h2 id="label-positioning" class="docs-heading" data-magellan-target="label-positioning">Label Positioning<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#label-positioning"></a></h2><p>Sometimes you want a form with labels to the left of your inputs. Piece of cake! You can put the label inside a different column to the left of the input. Then use the class <code>.text-right</code> or <code>.float-right</code> (or add <code>text-align: right</code> yourself) to realign the label.</p>
+<div class="warning callout">
+  <p>In a <a href="http://foundation.zurb.com/sites/docs/rtl.html">right-to-left</a> environment, use <code>.float-left</code> instead.</p>
+</div>
+
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-8">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"small-3 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"right-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text-right"</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"small-9 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"right-label"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Right-aligned text input"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></code></pre></div><div class="medium-8 column row">
+  <div class="row">
+    <div class="small-3 columns">
+      <label for="right-label" class="text-right">Label</label>
+    </div>
+    <div class="small-9 columns">
+      <input type="text" id="right-label" placeholder="Right-aligned text input">
+    </div>
+  </div>
+</div>
+
+<hr>
+<p>Add the <code>.middle</code> class to vertically align the label with its input.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-9">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">form</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"small-3 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"middle-label"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text-right middle"</span>&gt;</span>Label<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"small-9 columns"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"middle-label"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Right- and middle-aligned text input"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></code></pre></div><div class="medium-8 column row">
+  <div class="row">
+    <div class="small-3 columns">
+      <label for="middle-label" class="text-right middle">Label</label>
+    </div>
+    <div class="small-9 columns">
+      <input type="text" id="middle-label" placeholder="Right- and middle-aligned text input">
+    </div>
+  </div>
+</div>
+
+<hr>
+<h2 id="inline-labels-and-buttons" class="docs-heading" data-magellan-target="inline-labels-and-buttons">Inline Labels and Buttons<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#inline-labels-and-buttons"></a></h2><p>To attach extra text or controls to the left or right of an input field, wrap the elements in an <code>.input-group</code> container, then add these classes to the elements inside:</p>
+<ul>
+<li><code>.input-group-field</code> on the text field.</li>
+<li><code>.input-group-label</code> on a text label.</li>
+<li><code>.input-group-button</code> on a button. <strong>Place the button inside this wrapper.</strong></li>
+</ul>
+<div class="primary callout">
+  <p>This component supports flexbox mode. <a href="http://foundation.zurb.com/sites/docs/flexbox.html">Learn how to enable flexbox mode</a>.</p>
+</div>
+
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-10">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group-label"</span>&gt;</span>$<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group-field"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"number"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-group-button"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"submit"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"Submit"</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><div class="input-group">
+  <span class="input-group-label">$</span>
+  <input class="input-group-field" type="number">
+  <div class="input-group-button">
+    <input type="submit" class="button" value="Submit">
+  </div>
+</div></div><hr>
+<h2 id="file-upload-button" class="docs-heading" data-magellan-target="file-upload-button">File Upload Button<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#file-upload-button"></a></h2><p>Use <code>&lt;input type="file"&gt;</code> to create a file upload button. For security reasons, most browsers don't let you style file inputs. To work around that, we can style a form label as a button, and point it to the <code>&lt;input&gt;</code>. To properly mask the input, the <code>.show-for-sr</code> class is added.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-11">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"exampleFileUpload"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"button"</span>&gt;</span>Upload File<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"file"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"exampleFileUpload"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"show-for-sr"</span>&gt;</span></code></pre></div>
+
+<div class="docs-code-live"><label for="exampleFileUpload" class="button">Upload File</label>
+<input type="file" id="exampleFileUpload" class="show-for-sr"></div><hr>
+<h2 id="custom-controls" class="docs-heading" data-magellan-target="custom-controls">Custom Controls<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#custom-controls"></a></h2><p>Custom form controls, like date pickers, range sliders, or switches need some extra attention to be made accessible. Our custom inputs, such as the range slider and switch, do most of this work for you.</p>
+<p>Custom inputs with labels or help text need the attributes <code>aria-labelledby</code> and <code>aria-describedby</code> added to them, so screen readers know how to describe the control.</p>
+<div class="docs-code" data-docs-code=""><button class="docs-code-copy" id="copy-btn-12">Copy</button><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"ageLabel"</span>&gt;</span>Age<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"slider"</span> <span class="hljs-attr">aria-labelledby</span>=<span class="hljs-string">"ageLabel"</span> <span class="hljs-attr">aria-describedby</span>=<span class="hljs-string">"ageHelpText"</span> <span class="hljs-attr">data-slider</span> <span class="hljs-attr">data-initial-start</span>=<span class="hljs-string">'50'</span> <span class="hljs-attr">data-end</span>=<span class="hljs-string">'200'</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"slider-handle"</span>  <span class="hljs-attr">data-slider-handle</span> <span class="hljs-attr">role</span>=<span class="hljs-string">"slider"</span> <span class="hljs-attr">tabindex</span>=<span class="hljs-string">"1"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"slider-fill"</span> <span class="hljs-attr">data-slider-fill</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"hidden"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"ageHelpText"</span>&gt;</span>How old are you?<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></code></pre></div>
+
+<hr>
+<section>
+  <h2 id="sass-reference" class="docs-heading" data-magellan-target="sass-reference">Sass Reference<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#sass-reference"></a></h2>
+
+  <section>
+    <h3 id="sass-variables" class="docs-heading">Variables<a class="docs-heading-icon" href="http://foundation.zurb.com/sites/docs/forms.html#sass-variables"></a></h3>
+
+    <p>The default styles of this component can be customized using these Sass variables in your project's <a href="http://foundation.zurb.com/sites/docs/sass.html#the-settings-file">settings file</a>.</p>
+
+    <table class="docs-variable-table">
+      <thead>
+        <tr><th>Name</th><th>Type</th><th>Default Value</th><th>Description</th></tr>
+      </thead>
+      <tbody><tr>
+        <td class="name"><code>$fieldset-border</code></td>
+        <td>Border</td>
+        <td class="border"><code>1px solid $medium-gray</code></td>
+        <td><p>Default border around custom fieldsets.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$fieldset-padding</code></td>
+        <td>Number</td>
+        <td class="number"><code>rem-calc(20)</code></td>
+        <td><p>Default padding inside custom fieldsets.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$fieldset-margin</code></td>
+        <td>Number</td>
+        <td class="number"><code>rem-calc(18 0)</code></td>
+        <td><p>Default margin around custom fieldsets.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$legend-padding</code></td>
+        <td>Number</td>
+        <td class="number"><code>rem-calc(0 3)</code></td>
+        <td><p>Default padding between the legend text and fieldset border.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$form-spacing</code></td>
+        <td>Number</td>
+        <td class="number"><code>rem-calc(16)</code></td>
+        <td><p>Global spacing for form elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$helptext-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$black</code></td>
+        <td><p>Default color for help text.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$helptext-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>rem-calc(13)</code></td>
+        <td><p>Default font size for help text.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$helptext-font-style</code></td>
+        <td>Keyword</td>
+        <td class="keyword"><code>italic</code></td>
+        <td><p>Default font style for help text.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-prefix-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$black</code></td>
+        <td><p>Color of labels prefixed to an input.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-prefix-background</code></td>
+        <td>Color</td>
+        <td class="color"><code>$light-gray</code></td>
+        <td><p>Background color of labels prefixed to an input.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-prefix-border</code></td>
+        <td>Border</td>
+        <td class="border"><code>1px solid $medium-gray</code></td>
+        <td><p>Border around labels prefixed to an input.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-prefix-padding</code></td>
+        <td></td>
+        <td class=""><code>1rem</code></td>
+        <td><p>Left/right padding of an pre/postfixed input label</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$form-label-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$black</code></td>
+        <td><p>Color for form labels.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$form-label-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>rem-calc(14)</code></td>
+        <td><p>Font size for form labels.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$form-label-font-weight</code></td>
+        <td>Keyword</td>
+        <td class="keyword"><code>$global-weight-normal</code></td>
+        <td><p>Font weight for form labels.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$form-label-line-height</code></td>
+        <td>Number</td>
+        <td class="number"><code>1.8</code></td>
+        <td><p>Line height for form labels. The higher the number, the more space between the label and its input field.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$select-background</code></td>
+        <td>Color</td>
+        <td class="color"><code>$white</code></td>
+        <td><p>Background color for select menus.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$select-triangle-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$dark-gray</code></td>
+        <td><p>Color of the dropdown triangle inside select menus. Set to <code>transparent</code> to remove it entirely.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$select-radius</code></td>
+        <td>Color</td>
+        <td class="color"><code>$global-radius</code></td>
+        <td><p>Default radius for select menus.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$black</code></td>
+        <td><p>Font color of text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-placeholder-color</code></td>
+        <td>Color</td>
+        <td class="color"><code>$medium-gray</code></td>
+        <td><p>Font color of placeholder text within text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-font-family</code></td>
+        <td>Font</td>
+        <td class="font"><code>inherit</code></td>
+        <td><p>Font family of text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-font-size</code></td>
+        <td>Number</td>
+        <td class="number"><code>rem-calc(16)</code></td>
+        <td><p>Font size of text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-background</code></td>
+        <td>Color</td>
+        <td class="color"><code>$white</code></td>
+        <td><p>Background color of text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-background-focus</code></td>
+        <td>Color</td>
+        <td class="color"><code>$white</code></td>
+        <td><p>Background color of focused of text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-background-disabled</code></td>
+        <td>Color</td>
+        <td class="color"><code>$light-gray</code></td>
+        <td><p>Background color of disabled text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-border</code></td>
+        <td>Border</td>
+        <td class="border"><code>1px solid $medium-gray</code></td>
+        <td><p>Border around text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-border-focus</code></td>
+        <td>Color</td>
+        <td class="color"><code>1px solid $dark-gray</code></td>
+        <td><p>Border around focused text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-shadow</code></td>
+        <td>Shadow</td>
+        <td class="shadow"><code>inset 0 1px 2px rgba($black, 0.1)</code></td>
+        <td><p>Box shadow inside text inputs when not focused.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-shadow-focus</code></td>
+        <td>Shadow</td>
+        <td class="shadow"><code>0 0 5px $medium-gray</code></td>
+        <td><p>Box shadow outside text inputs when focused.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-cursor-disabled</code></td>
+        <td>Cursor</td>
+        <td class="cursor"><code>not-allowed</code></td>
+        <td><p>Cursor to use when hovering over a disabled text input.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-transition</code></td>
+        <td>Transition</td>
+        <td class="transition"><code>box-shadow 0.5s, border-color 0.25s ease-in-out</code></td>
+        <td><p>Properties to transition on text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-number-spinners</code></td>
+        <td>Boolean</td>
+        <td class="boolean"><code>true</code></td>
+        <td><p>Enables the up/down buttons that Chrome and Firefox add to <code>&lt;input type='number'&gt;</code> elements.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$input-radius</code></td>
+        <td>Border</td>
+        <td class="border"><code>$global-radius</code></td>
+        <td><p>Radius for text inputs.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$meter-height</code></td>
+        <td>Length</td>
+        <td class="length"><code>1rem</code></td>
+        <td><p>Height of a <code>&lt;meter&gt;</code> element.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$meter-radius</code></td>
+        <td>Length</td>
+        <td class="length"><code>$global-radius</code></td>
+        <td><p>Border radius of a <code>&lt;meter&gt;</code> element.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$meter-background</code></td>
+        <td>Color</td>
+        <td class="color"><code>$medium-gray</code></td>
+        <td><p>Background color of a <code>&lt;meter&gt;</code> element.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$meter-fill-good</code></td>
+        <td>Color</td>
+        <td class="color"><code>$success-color</code></td>
+        <td><p>Meter fill for an optimal value in a <code>&lt;meter&gt;</code> element.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$meter-fill-medium</code></td>
+        <td>Color</td>
+        <td class="color"><code>$warning-color</code></td>
+        <td><p>Meter fill for an average value in a <code>&lt;meter&gt;</code> element.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$meter-fill-bad</code></td>
+        <td>Color</td>
+        <td class="color"><code>$alert-color</code></td>
+        <td><p>Meter fill for a suboptimal value in a <code>&lt;meter&gt;</code> element.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$progress-height</code></td>
+        <td>Number</td>
+        <td class="number"><code>1rem</code></td>
+        <td><p>Height of a progress bar.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$progress-background</code></td>
+        <td>Color</td>
+        <td class="color"><code>$medium-gray</code></td>
+        <td><p>Background color of a progress bar.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$progress-margin-bottom</code></td>
+        <td>Number</td>
+        <td class="number"><code>$global-margin</code></td>
+        <td><p>Bottom margin of a progress bar.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$progress-meter-background</code></td>
+        <td>Color</td>
+        <td class="color"><code>$primary-color</code></td>
+        <td><p>Default color of a progress bar's meter.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$progress-radius</code></td>
+        <td>Number</td>
+        <td class="number"><code>$global-radius</code></td>
+        <td><p>Default radius of a progress bar.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$slider-height</code></td>
+        <td>Number</td>
+        <td class="number"><code>0.5rem</code></td>
+        <td><p>Default height of the slider.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$slider-background</code></td>
+        <td>Color</td>
+        <td class="color"><code>$light-gray</code></td>
+        <td><p>Default background color of the slider's track.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$slider-fill-background</code></td>
+        <td>Color</td>
+        <td class="color"><code>$medium-gray</code></td>
+        <td><p>Default color of the active fill color of the slider.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$slider-handle-height</code></td>
+        <td>Number</td>
+        <td class="number"><code>1.4rem</code></td>
+        <td><p>Default height of the handle of the slider.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$slider-handle-width</code></td>
+        <td>Number</td>
+        <td class="number"><code>1.4rem</code></td>
+        <td><p>Default width of the handle of the slider.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$slider-handle-background</code></td>
+        <td>Color</td>
+        <td class="color"><code>$primary-color</code></td>
+        <td><p>Default color of the handle for the slider.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$slider-opacity-disabled</code></td>
+        <td>Number</td>
+        <td class="number"><code>0.25</code></td>
+        <td><p>Default fade amount of a disabled slider.</p>
+</td>
+      </tr>
+      <tr>
+        <td class="name"><code>$slider-radius</code></td>
+        <td>Number</td>
+        <td class="number"><code>$global-radius</code></td>
+        <td><p>Default radius for slider.</p>
+</td>
+      </tr>
+    </tbody></table>
+  </section>
+
+
+
+</section>
+
+
+<!-- <hr> -->
+<!-- <section class="docs-building-blocks">
+  <h2 id="building-blocks" class="docs-heading" data-magellan-target="building-blocks">Building Blocks<a class="docs-heading-icon" href="#building-blocks"></a></h2>
+
+  <p><a href="http://zurb.com/building-blocks">Building Blocks</a> is a ZURB-curated resource with useful code snippets that use Foundation components. Here are a few for this component:</p>
+
+  <div class="warning callout">
+    <p>These are placeholder items. If you have ideas for building blocks for this component, <a href="https://github.com/zurb/foundation-sites-6/issues/118">we're taking ideas on GitHub</a>.</p>
+  </div>
+
+  <div data-building-blocks></div>
+</section> -->
+
+</div>
+
+<div class="large-3 columns sticky-container" data-sticky-container="" style="height: 299.625px;">
+  <nav class="columns docs-toc-wrap sticky is-stuck is-at-top" data-sticky="w4ibbl-sticky" data-anchor="docs" data-sticky-on="large" data-resize="6kbbs9-sticky" style="max-width: 252.906px; margin-top: 1em; top: 0px; bottom: auto; left: 1033.08px;" data-events="resize">
+    <div class="docs-toc hide" id="docsTOC">
+      <ul class="vertical menu" data-docs-toc="" data-resize="pb9y7m-magellan" data-scroll="pb9y7m-magellan" id="pb9y7m-magellan" data-magellan="nqfyyw-magellan" data-events="resize">
+        <li class="docs-nav-title">On this page:</li>
+      <li><a href="http://foundation.zurb.com/sites/docs/forms.html#form-basics" class="active">Form Basics</a></li><li><a href="http://foundation.zurb.com/sites/docs/forms.html#help-text" class="">Help Text</a></li><li><a href="http://foundation.zurb.com/sites/docs/forms.html#label-positioning" class="">Label Positioning</a></li><li><a href="http://foundation.zurb.com/sites/docs/forms.html#inline-labels-and-buttons" class="">Inline Labels and Buttons</a></li><li><a href="http://foundation.zurb.com/sites/docs/forms.html#file-upload-button" class="">File Upload Button</a></li><li><a href="http://foundation.zurb.com/sites/docs/forms.html#custom-controls" class="">Custom Controls</a></li><li><a href="http://foundation.zurb.com/sites/docs/forms.html#sass-reference" class="">Sass Reference</a></li></ul>
+    </div>
+  </nav>
+</div>
+
+</div>
+
+</article>
+
+        </div>
+        <div class="medium-3 large-2 medium-pull-9 large-pull-10 columns">
+          <ul class="vertical menu docs-nav" id="docs-menu">
+            <p class="docs-nav-version">
+              <span data-docs-version="">v6.2.1</span>
+              <a href="https://github.com/zurb/foundation-sites/releases/" target="_blank">(Changelog)</a>
+            </p>
+          
+            <li class="docs-nav-title">Getting Started</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/installation.html">Installation</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/starter-projects.html">Starter Projects</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/compatibility.html">Compatibility</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/accessibility.html">Accessibility</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/kitchen-sink.html">Kitchen Sink</a></li>
+          
+            <li class="docs-nav-title">Setup</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/global.html">Global Styles</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/rtl.html">Right-to-Left Support</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/flexbox.html">Flexbox</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/sass.html">Sass</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/javascript.html">JavaScript</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/javascript-utilities.html">JavaScript Utilities</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/media-queries.html">Media Queries</a></li>
+          
+            <li class="docs-nav-title">General</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/grid.html">Grid</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/flex-grid.html">Flex Grid</a></li>
+            <li class="current"><a href="http://foundation.zurb.com/sites/docs/forms.html">Forms</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/visibility.html">Visibility Classes</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/float-classes.html">Float Classes</a></li>
+          
+            <li class="docs-nav-title">Typography</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/typography-base.html">Base Styles</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/typography-helpers.html">Helper Classes</a></li>
+          
+            <li class="docs-nav-title">Controls</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/button.html">Button</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/button-group.html">Button Group</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/close-button.html">Close Button</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/slider.html">Slider <span class="label">JS</span></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/switch.html">Switch</a></li>
+          
+            <li class="docs-nav-title">Navigation</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/navigation.html">Overview</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/menu.html">Menu</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/dropdown-menu.html">Dropdown Menu <span class="label">JS</span></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/drilldown-menu.html">Drilldown Menu <span class="label">JS</span></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/accordion-menu.html">Accordion Menu <span class="label">JS</span></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/top-bar.html">Top Bar</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/responsive-navigation.html">Responsive Navigation</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/magellan.html">Magellan <span class="label">JS</span></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/pagination.html">Pagination</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/breadcrumbs.html">Breadcrumbs</a></li>
+          
+            <li class="docs-nav-title">Containers</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/accordion.html">Accordion <span class="label">JS</span></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/callout.html">Callout</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/dropdown.html">Dropdown <span class="label">JS</span></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/media-object.html">Media Object</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/off-canvas.html">Off-canvas <span class="label">JS</span></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/reveal.html">Reveal <span class="label">JS</span> <small>Modal</small></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/table.html">Table</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/tabs.html">Tabs <span class="label">JS</span></a></li>
+          
+            <li class="docs-nav-title">Media</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/badge.html">Badge</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/flex-video.html">Flex Video</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/label.html">Label</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/orbit.html">Orbit <span class="label">JS</span> <small>Carousel</small></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/progress-bar.html">Progress Bar</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/thumbnail.html">Thumbnail</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/tooltip.html">Tooltip <span class="label">JS</span></a></li>
+          
+            <li class="docs-nav-title">Plugins</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/abide.html">Abide <small>Form Validation</small></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/equalizer.html">Equalizer <small>Column Alignment</small></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/interchange.html">Interchange <small>Responsive Content</small></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/toggler.html">Toggler <small>CSS Helper</small></a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/sticky.html">Sticky <small>Header/Sidebar</small></a></li>
+          
+            <li class="docs-nav-title">Sass</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/sass-functions.html">Functions</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/sass-mixins.html">Mixins</a></li>
+          
+            <li class="docs-nav-title">Libraries</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/motion-ui.html">Motion UI</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/panini.html">Panini</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/style-sherpa.html">Style Sherpa</a></li>
+          
+            <li class="docs-nav-title">Older Versions</li>
+            <li><a href="http://foundation.zurb.com/sites/docs/v/5.5.3/index.html">Foundation 5</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/v/4.3.2/index.html">Foundation 4</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/v/3.2.5/">Foundation 3</a></li>
+            <li><a href="http://foundation.zurb.com/sites/docs/v/2.2.1/">Foundation 2</a></li>
+          </ul>
+          
+        </div>
+      </div>
+
+      <!-- Small Business(Docs) -->
+      <section id="studiosCallout" class="foundation">
+        <div class="row">
+          <div class="large-4 medium-4 columns">
+            <img src="./Foundation for Sites 6 Docs _ Forms_files/smallbiz-footer.svg" alt="">
+          </div>
+          <div class="large-8 medium-8 columns banner-info">
+            <div class="row column property-label">ZURB STUDIOS</div>
+            <h3 class="light">Let's build something amazing.</h3>
+            <p class="lead">Work with our scrappy design team to bring your concepts to life. We’ll equip you with our battle-tested Progressive Design process and the tools to get your product or website off the ground and in front of your users.</p>
+            <div class="course-buttons">
+                <a href="http://zurb.com/studios/getstarted" class="button" data-zcom-event="studios_foundation_click" id="foundationSmallV1" data-has-zcom-event-handler="1">Show Me How →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="docs-newsletter">
+        <div class="row">
+          <div class="medium-8 columns">
+            <h5>Stay on top of what’s happening in <a href="http://zurb.com/responsive">responsive design</a>.</h5>
+            <p>Sign up to receive monthly Responsive Reading highlights. <a href="http://zurb.com/responsive/reading">Read Last Month's Edition »</a></p>
+          </div>
+          <div class="medium-4 columns">
+            <form action="http://zurb.createsend.com/t/y/s/vjtyhh/" method="post" id="subForm" data-has-zcom-email-handler="1">
+              <div class="row collapse margintop-20px">
+                <div class="small-8 medium-8 columns">
+                  <input id="fieldEmail" name="cm-vjtyhh-vjtyhh" type="email" placeholder="signup@example.com">
+                </div>
+                <div class="small-4 medium-4 columns">
+                  <input type="submit" href="#" class="postfix button" value="Sign Up">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="zurb-footer-top bg-fblue">
+        <div class="row property">
+          <div class="medium-4 columns">
+            <div class="property-info">
+              <h3>Foundation for Sites</h3>
+              <p>Foundation is a responsive front-end framework made by <a href="http://zurb.com/">ZURB</a>, a product design company in Campbell, CA. This framework is the result of building web products &amp; services since 1998.
+              </p>
+            </div>
+          </div>
+      
+          <div class="medium-8 columns">
+            <div class="row collapse">
+              <div class="medium-4 columns">
+                <div class="learn-links">
+                  <h4 class="hide-for-small">Want more?</h4>
+                  <ul>
+                    <li><a href="http://foundation.zurb.com/apps">Foundation for Apps</a></li>
+                    <li><a href="http://zurb.com/ink/">Ink Responsive Emails</a></li>
+                    <li><a href="http://zurb.com/notable">Notable Design Apps</a></li>
+                    <li><a href="http://zurb.com/university/courses">Training</a></li>
+                    <li><a href="http://zurb.com/library">Design Resources</a></li>
+                  </ul>
+                </div>
+              </div>
+                <div class="medium-4 columns">
+                  <div class="support-links">
+                  <h4 class="hide-for-small">Talk to us</h4>
+                  <p>Tweet us at <br> <a href="https://twitter.com/zurbfoundation">@ZURBfoundation</a></p>
+                  <p><a href="http://foundation.zurb.com/business/business-support.html">Business Support</a></p>
+                  <p>Or check our <a href="http://foundation.zurb.com/support/support.html">support page</a></p>
+                  </div>
+                </div>
+              <div class="medium-4 columns">
+                <div class="connect-links">
+                  <h4 class="hide-for-small">Stay Updated</h4>
+                  <p>Keep up with the latest on Foundation. Find us on <a href="https://github.com/zurb/foundation">Github</a>.</p>
+                  <a href="http://zurb.com/news" class="small button">Stay Connected</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row global">
+          <div class="medium-3 small-6 columns">
+            <a href="http://zurb.com/studios" class="footer-link-block services">
+              <span class="title">Studios</span>
+              <span>Helping more than 200 startups succeed since 1998.</span>
+            </a>
+          </div>
+          <div class="medium-3 small-6 columns">
+            <a href="http://foundation.zurb.com/" class="footer-link-block foundation">
+              <span class="title">Foundation</span>
+              <span>The most advanced front-end framework in the world.</span>
+            </a>
+          </div>
+          <div class="medium-3 small-6 columns">
+            <a href="http://zurb.com/notable" class="footer-link-block apps">
+              <span class="title">Notable Design Apps</span>
+              <span>Prototype, iterate and collect feedback on your products.</span>
+            </a>
+          </div>
+          <div class="medium-3 small-6 columns">
+            <a href="http://zurb.com/university" class="footer-link-block expo">
+              <span class="title">University</span>
+              <span>Ideas, thoughts and design resources shared with you.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="zurb-footer-bottom">
+        <div class="row">
+          <div class="medium-4 medium-push-8 columns">
+            <ul class="home-social">
+                <li><a href="http://www.twitter.com/ZURB" class="twitter"></a></li>
+                <li><a href="http://www.facebook.com/ZURB" class="facebook"></a></li>
+                <li><a href="http://zurb.com/contact" class="mail"></a></li>
+              </ul>
+           </div>
+           <div class="medium-8 medium-pull-4 columns">
+              <a href="http://www.zurb.com/" class="zurb-logo regular"></a>
+              <ul class="zurb-links">
+                <li><a href="http://zurb.com/about">About</a></li>
+                <li><a href="http://zurb.com/blog">Blog</a></li>
+                <li><a href="http://zurb.com/news">News<span class="show-for-medium-up"> &amp; Events</span></a></li>
+                <li><a href="http://zurb.com/contact">Contact</a></li>
+                <li><a href="http://zurb.com/sitemap">Sitemap</a></li>
+             </ul>
+             <p class="copyright">© 1998‐2015 ZURB, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+      
+    <div class="js-off-canvas-exit"></div></div>
+  </div>
+
+  <script type="text/javascript" async="" src="./Foundation for Sites 6 Docs _ Forms_files/ga.js"></script><script>
+  var _gaq = _gaq || [];
+  _gaq.push(
+    ['_setAccount', 'UA-2195009-2'],
+    ['_trackPageview'],
+    ['b._setAccount', 'UA-2195009-27'],
+    ['b._trackPageview']
+  );
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+
+  <script src="./Foundation for Sites 6 Docs _ Forms_files/vendor.js"></script>
+  <script src="./Foundation for Sites 6 Docs _ Forms_files/foundation.js"></script>
+  <script src="./Foundation for Sites 6 Docs _ Forms_files/docs.js"></script>
+  <script type="text/javascript" src="./Foundation for Sites 6 Docs _ Forms_files/zcom.js"></script>
+
+
+</div></body></html>

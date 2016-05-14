@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="css/reset.css">
     <!-- CSS reset -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/content.css" />
+    <script src="js/modernizr.custom.js"></script>
+
     <!-- Resource style -->
 
 </head>
@@ -28,6 +32,8 @@
         <div class="large-1 columns">
             <br>
         </div>
+
+        <!--
         <div class="large-6 columns ">
             <div class="large-12 columns hei" data-sticky-container id="menu">
                 <div class="sticky " data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
@@ -46,10 +52,9 @@
                         </ul>
 
                     </div>
-                </div>
-            </div>
 
-        </div>
+-->
+
         <div class="large-6 columns">
             <br>
         </div>
@@ -152,6 +157,28 @@
 
         <div class="large-12 columns rowone" id="contact">
 
+        </div>
+    </div>
+    <div class="morph-button morph-button-sidebar morph-button-fixed">
+        <button type="button"><span class="icon icon-cog">Settings Menu</span></button>
+        <div class="morph-content">
+            <div>
+                <div class="content-style-sidebar">
+                    <span class="icon icon-close">Close the overlay</span>
+                    <h2>Settings</h2>
+                    <ul>
+                        <li><a class="icon icon-camera" href="#">Default filters</a></li>
+                        <li><a class="icon icon-server" href="#">Storage Use</a></li>
+                        <li><a class="icon icon-heart" href="#">Favorites</a></li>
+                        <li><a class="icon icon-zoom-in" href="#">Readability</a></li>
+                        <li><a class="icon icon-microphone" href="#">Speech</a></li>
+                        <li><a class="icon icon-cloud" href="#">Uploads</a></li>
+                        <li><a class="icon icon-user" href="#">Profile</a></li>
+                        <li><a class="icon icon-briefcase" href="#">Documents</a></li>
+                        <li><a class="icon icon-globe" href="#">Global Options</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <!----------------portfolio part--------->
@@ -276,7 +303,7 @@
 
     <!-------------- contact me form------->
     <div class="row ">
-        <div class="large-12 columns contact">
+        <div class="large-12 columns cont ">
             <div class="large-3 columns icon">
                 <h4>Need any support?<br>we are here for you</h4>
             </div>
@@ -290,8 +317,8 @@
                         <input type="text" placeholder="Valid email">
                         <input type="text" placeholder="contact e.g +254">
                         <textarea placeholder="Message"></textarea>
-                        <div class="large-12 columns">
-                            <button class="secondary hollow button">Send</button>
+                        <div class="fieldgroup">
+                            <input type="submit" value="send" class="button submit " />
                         </div>
                     </fieldset>
                 </form>
@@ -337,6 +364,8 @@
             </div>
 
         </div>
+
+    </div>
     </div>
 
 
@@ -398,7 +427,84 @@
     <script src="js/jquery.mobile.custom.min.js"></script>
     <script src="js/main2.js"></script>
     <!-- Resource jQuery -->
+    <script src="js/classie.js"></script>
+    <script src="js/uiMorphingButton_fixed.js"></script>
+    <script src="js/uiMorphingButton_inflow.js"></script>
+    <script>
+        (function () {
+            var docElem = window.document.documentElement,
+                didScroll, scrollPosition,
+                container = document.getElementById('container');
 
+            // trick to prevent scrolling when opening/closing button
+            function noScrollFn() {
+                window.scrollTo(scrollPosition ? scrollPosition.x : 0, scrollPosition ? scrollPosition.y : 0);
+            }
+
+            function noScroll() {
+                window.removeEventListener('scroll', scrollHandler);
+                window.addEventListener('scroll', noScrollFn);
+            }
+
+            function scrollFn() {
+                window.addEventListener('scroll', scrollHandler);
+            }
+
+            function canScroll() {
+                window.removeEventListener('scroll', noScrollFn);
+                scrollFn();
+            }
+
+            function scrollHandler() {
+                if (!didScroll) {
+                    didScroll = true;
+                    setTimeout(function () {
+                        scrollPage();
+                    }, 60);
+                }
+            };
+
+            function scrollPage() {
+                scrollPosition = {
+                    x: window.pageXOffset || docElem.scrollLeft,
+                    y: window.pageYOffset || docElem.scrollTop
+                };
+                didScroll = false;
+            };
+
+            scrollFn();
+
+            var el = document.querySelector('.morph-button');
+
+            new UIMorphingButton(el, {
+                closeEl: '.icon-close',
+                onBeforeOpen: function () {
+                    // don't allow to scroll
+                    noScroll();
+                    // push main container
+                    classie.addClass(container, 'pushed');
+                },
+                onAfterOpen: function () {
+                    // can scroll again
+                    canScroll();
+                    // add scroll class to main el
+                    classie.addClass(el, 'scroll');
+                },
+                onBeforeClose: function () {
+                    // remove scroll class from main el
+                    classie.removeClass(el, 'scroll');
+                    // don't allow to scroll
+                    noScroll();
+                    // push back main container
+                    classie.removeClass(container, 'pushed');
+                },
+                onAfterClose: function () {
+                    // can scroll again
+                    canScroll();
+                }
+            });
+        })();
+    </script>
 </body>
 
 </html>
