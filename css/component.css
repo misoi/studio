@@ -15,7 +15,7 @@
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
-	line-height: 80px;
+	line-height: 40px;
 	overflow: hidden;
 }
 
@@ -34,8 +34,8 @@
 /* Common styles for overlay and modal type (fixed morph) */
 .morph-button-fixed,
 .morph-button-fixed .morph-content {
-	width: 300px;
-	height: 80px;
+	width: 200px;
+	height: 40px;
 }
 
 .morph-button-fixed > button {
@@ -54,7 +54,7 @@
 
 .morph-button-fixed .morph-content {
 	position: fixed;
-	z-index: 900;
+	z-index: 500;
 	opacity: 0;
 	-webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
 	transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
@@ -81,11 +81,11 @@
 }
 
 .morph-button-fixed.active > button {
-	z-index: 2000;
+	z-index: 1000;
 }
 
 .morph-button-fixed.active .morph-content {
-	z-index: 1900;
+	z-index: 1500;
 }
 
 /* Transitions for overlay button and sidebar button */
