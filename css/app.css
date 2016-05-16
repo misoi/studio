@@ -1526,4 +1526,9 @@ no-js
 .no-js .sub-nav {
     display: none;
 }
-.cont {}
+.cont {
+    background-image: url(../img/tech-1.jpg);
+    background-repeat: no-repeat;
+    width: 1280px;
+    opacity: 0.9;
+}
