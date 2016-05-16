@@ -29,8 +29,8 @@
 
 .menu {
     background-color: #A17044;
-    ;
-    width: 90%;
+    align-content: right;
+    text-align: right;
     height: 2em;
     font-size: 35px;
     font-family: Tahoma, Geneva, sans-serif;
@@ -140,7 +140,7 @@
     }
 }
 .hei {
-    height: 130px;
+    height: 150px;
 }
 .centre {
     text-align: center;
