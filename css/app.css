@@ -1,12 +1,13 @@
 .container {
     width: 100%;
+    max-width: 1280px;
     /* max-width: 1920px;*/
 }
 
 .background {
-    background-image: url(../img/microphone-1920x1080.jpg);
+    background-image: url(../img/Mojave_Audio_MA300_Multi_Pattern_Vacuum_Tube_Condenser_Microphone.jpg);
     width: 100%;
-    max-width: 1260px;
+    max-width: 1280px;
     background-repeat: no-repeat;
 }
 
@@ -26,26 +27,34 @@
 
 /* ------------menu-------------*/
 
-#menu {
-    background-color: black;
-    width: 100%;
-    height: 1em;
-    font-size: 20px;
+.menu {
+    background-color: #A17044;
+    ;
+    width: 90%;
+    height: 2em;
+    font-size: 35px;
     font-family: Tahoma, Geneva, sans-serif;
     font-weight: bold;
     text-align: center;
-    text-shadow: 3px 2px 3px #333333;
-    border-radius: 2px;
+    text-shadow: 4px 3px 4px #333333;
+    position: fixed;
+}
+
+.logo {
+    background-color: coral;
+    position: fixed;
 }
 
 
 }
-#menu a {
+.menu a {
     text-decoration: none;
-    color: #333333;
+    color: gold;
+    font-size: 18px;
     padding: 8px 8px 8px 8px;
+    display: inline-block;
 }
-#menu li {
+.menu li {
     display: inline-block;
     padding: 5px;
     color: blue;
@@ -156,7 +165,8 @@
     border-radius: 2em;
 }
 .service {
-    background-color: cadetblue;
+    background-color: #A17044;
+    max-width: 1280px;
 }
 .width {
     padding: 0px;
