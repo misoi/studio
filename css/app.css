@@ -4,6 +4,12 @@
     /* max-width: 1920px;*/
 }
 
+.book {
+    background-image: url(../img/maxresdefault%20.jpg);
+    background-repeat: no-repeat;
+    max-width: 1200px;
+}
+
 .background {
     background-image: url(../img/Mojave_Audio_MA300_Multi_Pattern_Vacuum_Tube_Condenser_Microphone.jpg);
     width: 100%;
