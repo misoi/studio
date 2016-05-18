@@ -5,10 +5,11 @@
 }
 
 .book {
-    background-image: url(../img/maxresdefault%20.jpg);
+    background-image: url(../img/burlgrunge.jpg);
+    opacity: 0.9;
     background-repeat: no-repeat;
-    max-width: 1200px;
-    opacity: 0.7;
+    color: white;
+    font-size: 20px;
 }
 
 .background {
@@ -45,6 +46,7 @@
     text-align: center;
     text-shadow: 4px 3px 4px #333333;
     position: fixed;
+    max-width: 1280;
 }
 
 .logo {
@@ -1534,8 +1536,23 @@ no-js
     display: none;
 }
 .cont {
-    background-image: url(../img/tech-1.jpg);
+    background-image: url(../img/774395-cool-background-patterns_d1450.jpg);
     background-repeat: no-repeat;
     width: 1280px;
     opacity: 0.9;
+}
+.row {
+    max-width: 1280px;
+}
+.b {
+    background-image: url(../img/0911248.png);
+    max-height: 800px;
+    background-repeat: no-repeat;
+}
+.font {
+    font-size: 20px;
+    color: white;
+}
+.fonts {
+    font-size: 50px;
 }

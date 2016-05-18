@@ -25,31 +25,31 @@
 
 <body>
 
-    <div class="container ">
-        <div class="large-12 columns">
+    <div class="container">
+        <div class="large-12 columns book">
             <div class="large-6 columns ">
 
                 <form>
                     <fieldset>
-                        <legend>Fieldset Legend</legend>
+                        <legend class="font">One step procedure, BOOK NOW!!!</legend>
 
-                        <label>Full Name
+                        <label class="font">Full Name
                             <input type="text" placeholder="input...">
-                            <label>Id No:
+                            <label class="font">Id No:
                                 <input type="text" placeholder="input...">
-                                <label>Email
+                                <label class="font">Email
                                     <input type="text" placeholder="input...">
-                                    <label>County
+                                    <label class="font">County
                                         <input type="text" placeholder="input...">
                                     </label>
-                                    <label>Phone No:
+                                    <label class="font">Phone No:
                                         <input type="text" placeholder="input...">
                                     </label>
 
                     </fieldset>
 
                     <div class="row">
-                        <fieldset class="large-3 columns">
+                        <fieldset class="large-6 columns">
                             <legend>Choose time</legend>
                             <input type="radio" name="gender" value="male" checked>Morning hour
                             <br>
@@ -57,8 +57,25 @@
                             <br>
                             <input type="radio" name="gender" value="other"> Whole day
                         </fieldset>
+                    </div>
+                    <div class="row">
                         <fieldset class="large-9 columns">
+                            <div class="large-6 columns">
+                                <form action="action_page.php">
+                                    <p>From:
+                                        <input type="date" name="from" placeholder="dd/mm/yyyy">
+                                    </p>
 
+                                </form>
+                            </div>
+                            <div class="large-6 columns">
+                                <form action="action_page.php">
+                                    <p> To:
+                                        <input type="date" name="to">
+                                    </p>
+
+                                </form>
+                            </div>
                         </fieldset>
 
                     </div>
@@ -66,21 +83,15 @@
             </div>
             <div class="large-5 columns">
                 <br>
-                <div class="large-6 columns">
-                    <form action="action_page.php">
-                        <p>From:
-                            <input type="date" name="from">
-                        </p>
 
-                    </form>
-                </div>
-                <div class="large-6 columns">
-                    <form action="action_page.php">
-                        <p> To:
-                            <input type="date" name="to">
-                        </p>
+                <div class="large-12 columns ">
+                    <img src="img/0911248.png" width="100%" height="100%">
+                    <p class="slantfont fonts">Welcome to our service
 
-                    </form>
+                        <br>and we thank you for placing your trust in us.
+
+
+                        <br>We look forward to serving you!</p>
                 </div>
             </div>
             </fieldset>
