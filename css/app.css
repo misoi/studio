@@ -1556,3 +1556,8 @@ no-js
 .fonts {
     font-size: 50px;
 }
+.border {
+    border-radius: 50%;
+    background-color: black;
+    color: black;
+}
