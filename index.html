@@ -165,8 +165,27 @@
     <!----------------portfolio part--------->
 
     <div id="port" class="cd-projects-wrapper ">
-        <h3 class="white"><a href="index.html">Back</a></h3>
+        <div class="large-12 columns menu">
+            <div class="large-3 columns">
+                <h3 class="slantfont">MORIS' STUDIO</h3>
+            </div>
+            <div class="large-9 columns">
+                <ul>
+
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li class="cd-intro-block"> <a href="index.html#about" data-action="show-projects"> portfolio</a>
+                    </li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li> <a href="book.html" data-action="show-projects"> Book</a></li>
+                </ul>
+
+            </div>
+        </div>
+
         <ul class="cd-slider">
+
 
             <li class="current">
                 <a href="#0">
@@ -281,35 +300,34 @@
         <br>
         <!-- .cd-slider-navigation -->
         <div class="cd-project-content">
-            <div>
-                <h5>Mama song</h5>
+            <br>
+            <h1 class="centre moris port">Thanks for visiting this website<br>You free to drop a comment</h1>
+            <!---------------------------------------------------------disqus commenting-------------------------------------------------->
 
-                <p>
-                    <iframe width="820" height="545" src="http://www.youtube.com/embed/7GZ-VfBl4Nk">
-                    </iframe>
-                </p>
-                <label>Comment:</label>
-                <textarea placeholder="Any comment here"></textarea>
-
-            </div>
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+                var disqus_config = function () {
+                    this.page.url = morisstudio.bitballoon.com; // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = morisstudio; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document,
+                        s = d.createElement('script');
+                    s.src = '//codefactor.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
             <a href="#0" class="close cd-img-replace"></a>
+            <script id="dsq-count-scr" src="//encylico.disqus.com/count.js" async></script>
         </div>
-        <div class="cd-project-content">
-            <div>
-                <h5>willy</h5>
 
-                <p>
-                    <iframe width="820" height="545" src="http://www.youtube.com/embed/DPB1vZUnfgo">
-                    </iframe>
-                </p>
-                <label>Comment:</label>
-                <textarea placeholder="Any comment here"></textarea>
-
-            </div>
-
-            <a href="#1" class="close cd-img-replace"></a>
-        </div>
     </div>
     <!-- .cd-projects-wrapper -->
 

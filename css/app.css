@@ -1559,5 +1559,11 @@ no-js
 .border {
     border-radius: 50%;
     background-color: black;
-    color: black;
+    /*    color: black;*/
+}
+.port {
+    background-image: url(../img/qSsmUG2.png);
+    background-repeat: no-repeat;
+    color: white;
+    height: auto;
 }
