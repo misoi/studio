@@ -1536,9 +1536,10 @@ no-js
     display: none;
 }
 .cont {
-    background-image: url(../img/774395-cool-background-patterns_d1450.jpg);
+    background-image: url(../img/qSsmUG2.png);
     background-repeat: no-repeat;
-    width: 1280px;
+    /*    width: 1280px;*/
+
     opacity: 0.9;
 }
 .row {
@@ -1566,4 +1567,7 @@ no-js
     background-repeat: no-repeat;
     color: white;
     height: auto;
+}
+.b {
+    border-radius: 20px;
 }
