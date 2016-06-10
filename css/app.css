@@ -174,8 +174,11 @@
     border-radius: 2em;
 }
 .service {
-    background-color: #A17044;
+    background-color: #A9A9A9;
     max-width: 1280px;
+}
+.serv {
+    font-size: 25px;
 }
 .width {
     padding: 0px;
