@@ -182,7 +182,10 @@
 }
 .width {
     padding: 0px;
-    /* width: 1243px;*/
+}
+.imges {
+    border-radius: 50%;
+    width: 30%;
 }
 
 /*footer details style*/
