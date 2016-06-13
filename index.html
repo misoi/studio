@@ -172,9 +172,6 @@
 
     <div class="large reveal" id="exampleModal" data-reveal>
         <div class="large-12 columns book">
-            <button class="button success border">
-                <a href="index.html"><h5 class="font">Home</h5></a>
-            </button>
             <div class="large-6 columns ">
 
                 <form>
@@ -184,17 +181,17 @@
                             <h3 class="slantfont fonts">BOOK NOW!!</h5>One step procedure to follow</h3>
                         </legend>
 
-                        <label class="font">Full Name
-                            <input type="text" placeholder="input...">
-                            <label class="font">Id No:
-                                <input type="text" placeholder="input...">
-                                <label class="font">Email
-                                    <input type="text" placeholder="input...">
-                                    <label class="font">County
-                                        <input type="text" placeholder="input...">
+                        <label class="servicep">Full Name
+                            <input type="text" placeholder="input..." required>
+                            <label class="servicep">Id No:
+                                <input type="text" placeholder="input..." required>
+                                <label class="servicep">Email
+                                    <input type="text" placeholder="input..." required>
+                                    <label class="servicep">County
+                                        <input type="text" placeholder="input..." required>
                                     </label>
-                                    <label class="font">Phone No:
-                                        <input type="text" placeholder="input...">
+                                    <label class="servicep">Phone No:
+                                        <input type="text" placeholder="input..." required>
                                     </label>
 
                     </fieldset>
@@ -202,7 +199,7 @@
                     <div class="row">
                         <fieldset class="large-6 columns">
                             <legend>Choose time</legend>
-                            <input type="radio" name="gender" value="male" checked>Morning hour
+                            <input type="radio" name="gender" value="male" checked required>Morning hour
                             <br>
                             <input type="radio" name="gender" value="female"> Afternoon hour
                             <br>
@@ -214,7 +211,7 @@
                             <div class="large-6 columns">
                                 <form action="action_page.php">
                                     <p>From:
-                                        <input type="date" name="from" placeholder="dd/mm/yyyy">
+                                        <input type="date" name="from" placeholder="dd/mm/yyyy" required>
                                     </p>
 
                                 </form>
@@ -222,7 +219,7 @@
                             <div class="large-6 columns">
                                 <form action="action_page.php">
                                     <p> To:
-                                        <input type="date" name="to">
+                                        <input type="date" name="to" required>
                                     </p>
 
                                 </form>
@@ -253,7 +250,7 @@
 
                 <div class="large-12 columns ">
                     <img src="img/0911248.png" width="100%" height="100%">
-                    <p class="slantfont fonts">Welcome to our service
+                    <p class="slantfont servicep">Welcome to our service
 
                         <br>and we thank you for placing your trust in us.
 
@@ -338,13 +335,13 @@
     </div>
 
     <div class="large-12 columns rowone" id="contact">
-        <!-- Start Sixth Section | Demo 5 -->
+
 
     </div>
 
     <hr>
 
-    <!----------------portfolio part--------->
+    <!----------------=============================================================portfolio part=====================================================================================--------->
 
     <div id="port" class="cd-projects-wrapper ">
         <nav class="hamburger">
@@ -512,7 +509,7 @@
             <div class="small-1 large-3 columns icon">
                 <h4>Need any support?<br>we are here for you</h4>
             </div>
-            <div class="small-12 large-7 columns ">
+            <div class="small-12 large-7 columns text-center">
                 <br>
                 <br>
                 <form>
@@ -521,20 +518,20 @@
                         <legend>
                             <h4 class="white">Get in touch</h4></legend>
 
-                        <input type="text" placeholder="Full name">
+                        <input type="text" placeholder="Full name" required>
 
                         <br>
 
-                        <input type="text" placeholder="Valid email">
+                        <input type="text" placeholder="Valid email" required>
 
                         <br>
-                        <input type="text" placeholder="contact e.g +254">
+                        <input type="text" placeholder="contact e.g +254" required>
                         <br>
-                        <textarea placeholder="Message"></textarea>
+                        <textarea placeholder="Message" required></textarea>
                         <br>
-                        <div class="fieldgroup">
-                            <input type="submit" value="send" class="button submit " />
-                        </div>
+                        <!--                        <div class="fieldgroup">-->
+                        <input type="submit" value="send" class="button submit " />
+                        <!--                       </div>-->
                         <br>
                     </fieldset>
                 </form>

@@ -1470,7 +1470,9 @@ kbd {
     outline: 0; }
   .button:hover, .button:focus {
     background-color: #1583cc;
-    color: #fefefe; }
+    color: #fefefe;
+      border-radius: 30%;
+}
   .button.tiny {
     font-size: 0.6rem; }
   .button.small {
