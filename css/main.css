@@ -1,0 +1,262 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans");
+@import url("//fonts.googleapis.com/css?family=Cabin");
+
+/*
+	Tutorial: Css3 Image hover effect
+	Author : WpFreeware
+	Author URI: http://www.wpfreeware.com/
+
+*/
+
+
+/* BASE - Base tyles, Variables, Mixins, etc. */
+
+
+/* Style for Demo */
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cabin", sans-serif;
+}
+
+h2 {
+    color: #2980b9;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+img {
+    border: none;
+}
+
+.primary-btn {
+    padding: 10px 15px;
+    color: #2980b9;
+    font-size: 18px;
+}
+
+.primary-btn span {
+    margin-left: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    color: #888888;
+    font-size: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+/* Sixth Section */
+
+#sixth-section {
+    background-color: #875F9A;
+    display: inline;
+    width: 100%;
+    float: left;
+}
+
+#sixth-section .sixth-section-area {
+    display: inline;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 150px 0;
+}
+
+#sixth-section .sixth-section-area h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#sixth-section .sixth-section-area .single-effect {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+#sixth-section .sixth-section-area .single-effect h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#sixth-section .sixth-section-area .single-effect .hover {
+    background-color: #FFF;
+    color: #888;
+}
+
+
+/* LAYOUTS - Page layout styles */
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.wrapp-inner {
+    float: left;
+    display: inline;
+    width: 100%;
+}
+
+
+/*  Demo 5 */
+
+.wpf-demo-5 {
+    background-color: #FFF;
+    display: block;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.wpf-demo-5 img {
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.wpf-demo-5:hover .view-caption {
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    -moz-transform: rotate(0deg) scale(1) translateY(0);
+    -o-transform: rotate(0deg) scale(1) translateY(0);
+    -ms-transform: rotate(0deg) scale(1) translateY(0);
+    -webkit-transform: rotate(0deg) scale(1) translateY(0);
+    transform: rotate(0deg) scale(1) translateY(0);
+}
+
+.wpf-demo-5:hover .view-caption:hover h4 {
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.wpf-demo-5:hover .view-caption:hover a {
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.wpf-demo-5 .view-caption {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 20% 0;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    -moz-transform: rotate(36deg) scale(0.5) translateY(-100%);
+    -o-transform: rotate(36deg) scale(0.5) translateY(-100%);
+    -ms-transform: rotate(36deg) scale(0.5) translateY(-100%);
+    -webkit-transform: rotate(36deg) scale(0.5) translateY(-100%);
+    transform: rotate(36deg) scale(0.5) translateY(-100%);
+}
+
+.wpf-demo-5 .view-caption h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.wpf-demo-5 .view-caption a {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 14%;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    line-height: 18px;
+    border-radius: 4px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -moz-transform: scale(0.4);
+    -o-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    transform: scale(0.4);
+}
+
+.wpf-demo-5 .view-caption a:hover {
+    color: #D24D57;
+    border-color: #D24D57;
+}
+
+
+/* Standard syntax */
+
+@keyframes translate-transition {
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

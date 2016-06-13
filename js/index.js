@@ -1,23 +1,3 @@
-$(document).foundation()
-
-$(function () {
-    $('a[href*="#"]:not([href="#"])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-    });
-});
-
-
-//menu js
-
 $(function () {
     $(function () {
         // Just incase the javascript fails to load
@@ -38,7 +18,7 @@ $(function () {
         $(".line-mid").toggleClass("js-line-mid");
         $(".line-bot").toggleClass("js-line-bot");
         $(" .page:nth-child(even) > .article-container ").toggleClass(" js-shift-right");
-        $(" .nav-container ").toggleClass(" js-nav-show ");
+        $(" .nav-container, .social-media-container ").toggleClass(" js-nav-show ");
         $(" .nav-container ").toggleClass(" js-nav-shadow ");
     });
     // random backgorund
