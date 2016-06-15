@@ -170,100 +170,86 @@
     </div>
     <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++===================================================================booking modal=============================================================================================================================-->
 
-    <div class="large reveal" id="exampleModal" data-reveal>
-        <div class="large-12 columns book">
-            <div class="large-6 columns ">
+    <div class="medium reveal" id="exampleModal" data-reveal>
+        <form>
+            <fieldset>
+                <legend>
+                    <h5>
+                            <h3 class="slantfont font">BOOK NOW!!</h5>One step procedure to follow</h3>
+                </legend>
 
-                <form>
-                    <fieldset>
-                        <legend>
-                            <h5>
-                            <h3 class="slantfont fonts">BOOK NOW!!</h5>One step procedure to follow</h3>
-                        </legend>
-
-                        <label class="servicep">Full Name
+                <label class="servicep">Full Name
+                    <input type="text" placeholder="input..." required>
+                    <label class="servicep">Id No:
+                        <input type="text" placeholder="input..." required>
+                        <label class="servicep">Email
                             <input type="text" placeholder="input..." required>
-                            <label class="servicep">Id No:
+                            <label class="servicep">County
                                 <input type="text" placeholder="input..." required>
-                                <label class="servicep">Email
-                                    <input type="text" placeholder="input..." required>
-                                    <label class="servicep">County
-                                        <input type="text" placeholder="input..." required>
-                                    </label>
-                                    <label class="servicep">Phone No:
-                                        <input type="text" placeholder="input..." required>
-                                    </label>
+                            </label>
+                            <label class="servicep">Phone No:
+                                <input type="text" placeholder="input..." required>
+                            </label>
 
-                    </fieldset>
+            </fieldset>
 
-                    <div class="row">
-                        <fieldset class="large-6 columns">
-                            <legend>Choose time</legend>
-                            <input type="radio" name="gender" value="male" checked required>Morning hour
-                            <br>
-                            <input type="radio" name="gender" value="female"> Afternoon hour
-                            <br>
-                            <input type="radio" name="gender" value="other"> Whole day
-                        </fieldset>
-                    </div>
-                    <div class="row">
-                        <fieldset class="large-9 columns">
-                            <div class="large-6 columns">
-                                <form action="action_page.php">
-                                    <p>From:
-                                        <input type="date" name="from" placeholder="dd/mm/yyyy" required>
-                                    </p>
-
-                                </form>
-                            </div>
-                            <div class="large-6 columns">
-                                <form action="action_page.php">
-                                    <p> To:
-                                        <input type="date" name="to" required>
-                                    </p>
-
-                                </form>
-                            </div>
-                        </fieldset>
-                        <div class="row">
-                            <div class="large-4 columns">
-                                <br>
-                            </div>
-                            <div class="large-4 columns">
-                                <br>
-                                <ul class="button-group">
-                                    <li>
-                                        <button class="small button" name="Send" type="submit">Book</button>
-                                        <button class="small button [success secondary alert]" name="reset" type="reset">Clear</button>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="large-4 columns">
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+            <div class="row">
+                <fieldset class="large-6 columns">
+                    <legend>Choose time</legend>
+                    <input type="radio" name="gender" value="male" checked required>Morning hour
+                    <br>
+                    <input type="radio" name="gender" value="female"> Afternoon hour
+                    <br>
+                    <input type="radio" name="gender" value="other"> Whole day
+                </fieldset>
             </div>
-            <div class="large-5 columns">
-                <br>
+            <div class="row">
+                <fieldset class="large-9 columns">
+                    <div class="large-6 columns">
+                        <form action="action_page.php">
+                            <p>From:
+                                <input type="date" name="from" placeholder="dd/mm/yyyy" required>
+                            </p>
 
-                <div class="large-12 columns ">
-                    <img src="img/0911248.png" width="100%" height="100%">
-                    <p class="slantfont servicep">Welcome to our service
+                        </form>
+                    </div>
+                    <div class="large-6 columns">
+                        <form action="action_page.php">
+                            <p> To:
+                                <input type="date" name="to" required>
+                            </p>
 
-                        <br>and we thank you for placing your trust in us.
-
-
-                        <br>We look forward to serving you!</p>
+                        </form>
+                    </div>
+                </fieldset>
+                <div class="row">
+                    <div class="large-4 columns">
+                        <br>
+                    </div>
+                    <div class="large-4 columns">
+                        <br>
+                        <ul class="button-group">
+                            <li>
+                                <button class="small button" name="Send" type="submit">Book</button>
+                                <button class="small button [success secondary alert]" name="reset" type="reset">Clear</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="large-4 columns">
+                        <br>
+                    </div>
                 </div>
             </div>
-            </fieldset>
-            </form>
-        </div>
+        </form>
         <button class="close-button" data-close aria-label="Close modal" type="button">
             <span aria-hidden="true">&times;</span>
         </button>
+    </div>
+
+    </fieldset>
+    </form>
+    </div>
+
     </div>
     <!--       +============================================================================================================================================= end of bookin modal===========================================================================================================================-->
     </div>

@@ -1,71 +1,66 @@
 body {
-    max-width: 100%;
-}
+        max-width: 100%;
+    }
 
-.container {
-    width: 100%;
-    max-width: 100%;
-    /* max-width: 1920px;*/
-}
+    .container {
+        width: 100%;
+        max-width: 100%;
+        /* max-width: 1920px;*/
+    }
 
-.book {
-    background-image: url(../img/burlgrunge.jpg);
-    opacity: 0.9;
-    background-repeat: no-repeat;
-    color: white;
-    font-size: 20px;
-}
+    .book {
+        opacity: 0.9;
+        background-repeat: no-repeat;
+        color: black;
+        font-size: 20px;
+    }
 
-.background {
-    background-image: url(../img/Mojave_Audio_MA300_Multi_Pattern_Vacuum_Tube_Condenser_Microphone.jpg);
-    width: 100%;
-    max-width: 100%;
-    background-repeat: no-repeat;
-}
+    .background {
+        background-image: url(../img/Mojave_Audio_MA300_Multi_Pattern_Vacuum_Tube_Condenser_Microphone.jpg);
+        width: 100%;
+        max-width: 100%;
+        background-repeat: no-repeat;
+    }
 
-.moris {
-    font-family: 'Erica One', cursive;
-    font-size: 60px;
-}
+    .moris {
+        font-family: 'Erica One', cursive;
+        font-size: 60px;
+    }
 
-.slantfont {
-    font-family: 'Oswald', sans-serif;
-    /*    font-family: 'Italianno', cursive;*/
-    font-size: 40px;
-    color: white;
-}
+    .slantfont {
+        font-family: 'Oswald', sans-serif;
+        /*    font-family: 'Italianno', cursive;*/
+        font-size: 40px;
+        color: white;
+    }
 
-.se {
-    font-family: 'Open Sans Condensed', sans-serif;
-}
+    .se {
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    /* ------------menu-------------*/
 
+    .menu {
+        /*background-color: #A17044;*/
+        align-content: right;
+        text-align: right;
+        height: 2em;
+        font-size: 35px;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 4px 3px 4px #333333;
+        position: fixed;
+        max-width: 1280;
+        background-color: black;
+        border: 1px solid black;
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+    }
 
-/* ------------menu-------------*/
-
-.menu {
-    /*background-color: #A17044;*/
-    align-content: right;
-    text-align: right;
-    height: 2em;
-    font-size: 35px;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    text-shadow: 4px 3px 4px #333333;
-    position: fixed;
-    max-width: 1280;
-    background-color: black;
-    border: 1px solid black;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-}
-
-.logo {
-    background-color: coral;
-    position: fixed;
-}
-
-
+    .logo {
+        background-color: coral;
+        position: fixed;
+    }
 }
 .menu a {
     text-decoration: none;
@@ -1462,7 +1457,7 @@ no-js
 }
 .font {
     font-size: 40px;
-    color: white;
+    color: black;
 }
 .fonts {
     font-size: 50px;
