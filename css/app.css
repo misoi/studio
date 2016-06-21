@@ -1844,3 +1844,7 @@ article p:first-letter {
     color: white;
     font-size: 20px;
 }
+
+.button:hover {
+    background-color: #F1085E;
+}
