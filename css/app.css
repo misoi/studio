@@ -1579,7 +1579,7 @@ nav a {
 .current-page,
 .nav-item:hover {
     background-color: transparent;
-    color: gold;
+    color: #F1085E;
 }
 
 .nav-item-text {
