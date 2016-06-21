@@ -1692,7 +1692,7 @@ select {
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #1583cc;
+    background-color:#F1085E;
     color: #fefefe; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -5491,7 +5491,7 @@ a#notice {
   #studiosCallout.studios .button {
     background: #2CADBE; }
     #studiosCallout.studios .button:hover {
-      background-color: #228795;
+      background-color: #F1085E;
       transition: .25 ease all; }
   #studiosCallout.studios .property-label {
     color: #2CADBE; }

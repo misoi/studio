@@ -1464,7 +1464,7 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #2199e8;
+  background-color:black;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
@@ -1488,7 +1488,7 @@ kbd {
     background-color: #2199e8;
     color: #fefefe; }
     .button.primary:hover, .button.primary:focus {
-      background-color: #147cc0;
+      background-color: #F1085E;
       color: #fefefe; }
   .button.secondary {
     background-color: #777;
@@ -1520,7 +1520,7 @@ kbd {
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background-color: transparent; }
     .button.hollow:hover, .button.hollow:focus {
-      border-color: #0c4d78;
+      border-color: #F1085E;
       color: #0c4d78; }
     .button.hollow.primary {
       border: 1px solid #2199e8;
